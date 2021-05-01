@@ -25,9 +25,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
-DEBUG = config('DEBUG', default=False, cast=bool)
-
-ALLOWED_HOSTS = []
+#DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = False
+ALLOWED_HOSTS = ['phonetics-app.herokuapp.com']
 
 
 # Application definition
